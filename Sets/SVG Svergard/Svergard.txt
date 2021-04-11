@@ -1,0 +1,216 @@
+[metadata]
+Code=SVG
+Date=2021-04-10
+Name=Revolution: Svergard
+Type=Other
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+#Set designed by Occo
+
+[cards]
+1 U Banish to the Ice
+2 C Blessed Valkyrie
+3 R Brallatt, Light-Maiden
+4 C Brallatt's Chosen
+5 U Brallatt's Light
+6 C Challenge the Monstrous
+7 C Defiant Strike
+8 R Desolation
+9 U Devout Sword-Thane
+10 C Divine Binding
+11 R Experienced Armorsmith
+12 C Froskur Armsleader
+13 R Furious Twinblade
+14 U Glyph of Protection
+15 U Guiding Valkyrie
+16 U Light-Maiden Shrine
+17 C Nordhavn Hawk
+18 U Overwhelmed Sentry
+19 C Runemend
+20 C Skygga Vanguard
+21 U Spill Forth
+22 C Stone-Circle Oracle
+23 C Touch the Skies
+24 C Travel to the Otherworlds
+25 R Unite the Clans
+26 U Valiant Swordsman
+27 R Vengeful Icemage
+28 C Warband Reinforcements
+29 C Winterholm Healer
+30 R Winterholm Hersir
+31 C Winterholm Valiant
+32 R Algrond, Storm-Serpent
+33 R Algrond's Awakening
+34 R Amos, Rune-Mage
+35 C Bearer of Tidings
+36 C Biting Gale
+37 C Divination
+38 C Entrapped in Ice
+39 U Inconspicuous Sloop
+40 R Maldunn, Raven-Wise
+41 C Maldunn's Rejection
+42 C Mistcall Mariner
+43 C Negate
+44 C Nordhavn Serpent
+45 U Northwind Adventurer
+46 U Raven-Wise Shrine
+47 C Raven-Wise Warrior
+48 C Rune-Clad Sneak
+49 U Rune's Insight
+50 U Sail-Road's Scourge
+51 U Siege of the Frost Giants
+52 R Silverarm Spellblade
+53 U Skofa Ambusher
+54 C Skofa Elite
+55 C Skofa Sigilsoul
+56 U Spirit of the World's Edge
+57 C Sturmslang Drakkar
+58 C Sturmslang Plunderer
+59 C Voyager's Vessel
+60 R Witness Beyonds
+61 R Wizened Sage
+62 U Writhing Fog
+63 C Bandit Brigade
+64 U Bloodprice
+65 R Coax Soul
+66 C Darg Frontline
+67 C Dark Bargain*
+68 C Dishonor
+69 C Duskborn Warrior
+70 R Feast of the Crows
+71 C Fell the Mighty
+72 C Fenran Bloodlust
+73 C Fenran Vanguard
+74 R Honorless Devourer
+75 C Ill Omen
+76 U Imposing Dreadship
+77 R Lumbering Mammoth
+78 R Munigg's Wisdom
+79 R Myrkalt, Shade-Bound
+80 U Myrkalt's Rager
+81 U Northlands Revenant
+82 C Ond-Fen Channeler
+83 C Raven's Ire
+84 U Rise of the Draugr
+85 C Rotbile Mage
+86 U Shade-Bound Shrine
+87 C Skygga Pillager
+88 U Skygga Reinforcement
+89 U Smokewreath Raven
+90 C Sturmslang Bruiser
+91 C Sturmslang Warship
+92 U Unrelenting Assault
+93 R Valdulfr, Unshackled
+94 C Aldur Giant
+95 R Aldur Peak-Terror
+96 C Bloodied Longspear
+97 R Ceaseless Assault
+98 C Ceaseless Ranks
+99 U Climb to the Peak
+100 R Darg Raider
+101 R Dwarven Rallier
+102 C Enraged Assailant
+103 U Ferocious Flame
+104 C Fierce Infantry
+105 R Fire-Gem Amulet
+106 U Glyph-Gift Berserker
+107 U Highland Warband
+108 C Lightning Splinters
+109 C Maldunn's Devotee
+110 C Mystic's Visions
+111 U Rage-Heart Shrine
+112 R Rasnif, Rage-Heart
+113 C Regal Hart
+114 C Run Amok
+115 R Rune-Mage's Wrath
+116 C Runic Fireworks
+117 U Shifting Forms
+118 C Skilled Axeman
+119 U Talented Blacksmith
+120 C Thunderous Smite
+121 C Thurog Nomad
+122 C Trumpet Blast
+123 U Varsmidd Brawler
+124 U Warforge Zealot
+125 U Ancestral Mantle
+126 U Boon of Might
+127 R Bridge of Prismafrost
+128 C Dawn on the Highlands
+129 U Dawnglade Assailant
+130 C Dawnglade Cultivator
+131 U Dawnglade Wildbear
+132 U Dullrock Giant
+133 R Eikre, Sciurine Messenger
+134 C Elvish Visionary
+135 C Explore
+136 U Grovecloak Fighter
+137 C Holmgang
+138 C Hyperboarean
+139 C Loyal Shield-Bearer
+140 R Lyrehorn Stag
+141 R Orrivan's Victory
+142 R Overwhelming Grizzly
+143 U Reclamation Sage
+144 C Rite of Spring
+145 C Scaravi Skald
+146 R Skagar, Wild-Lord
+147 C Skagar's Favored
+148 C Skagar's Mark
+149 R Skofa Commander
+150 C Skofa Shaman
+151 C Stoneskin Bogwalker
+152 C Vigor of the Wilds
+153 U Weaving of the World
+154 U Wild-Lord Shrine
+155 C Wildbond Tamer
+156 U Braveheart Charger
+157 R Cedric, Battle-Skald
+158 U Coldstorm Channeler
+159 U Darg Lieutenant
+160 U Dawnglade Packleader
+161 U Devoted Glyph-Mage
+162 R Havdan, Dawnglade Elder
+163 R Hergarv, Pass Sentinel
+164 U Huntmaster's Bear
+165 R Keseran, Wicked Manipulator
+166 R Morkfar, Ship of the Dead
+167 U Ond-Fen Auramancer
+168 U Rage-Fueled Razorback
+169 R Realm's Rebirth
+170 R Runeweave Elder
+171 U Sturmslang Smuggler
+172 R Thunder-Blessed Rager
+173 U Valdin, Axe Maiden
+174 R Valkyrie Commander
+175 R Wild-Lord's Progeny
+176 C Chronicler's Effigy
+177 U Dwarven Skyship
+178 C Explorer's Knarr
+179 R Gate of Realms
+180 C Marauder's Hatchet
+181 U Memorial to the Fallen
+182 U Mistwreath Stones
+183 R Multiplying Ring
+184 U Star-Forged Hammer
+185 R Warcaller's Horn
+186 R Ascendant Peak
+187 C Evolving Wilds
+188 R Marauder's Den
+189 C Realm Nexus
+190 U Stone Circle
+191 L Foothill Settlement
+192 L Frigid Port
+193 L Highland Homestead
+194 L Imposing Hall
+195 L Oracle's Sanctuary
+196 L Peak Refuge
+197 L Sheltered Slipway
+198 L Sublime Heartland
+199 L Unexplored Expanse
+200 L Warrior Encampment
+201 L Plains
+202 L Island
+203 L Swamp
+204 L Mountain
+205 L Forest
+
+[tokens]
