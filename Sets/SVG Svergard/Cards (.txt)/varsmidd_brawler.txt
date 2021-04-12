@@ -1,0 +1,7 @@
+Name:Varsmidd Brawler
+ManaCost:R R
+Types:Creature Dwarf Berserker
+PT:4/1
+K:CARDNAME can't block.
+Oracle:Varsmidd Brawler can't block.
+

@@ -1,0 +1,5 @@
+Name:Totem
+ManaCost:no cost
+Types:Creature Totem 
+PT:0/0
+Oracle:

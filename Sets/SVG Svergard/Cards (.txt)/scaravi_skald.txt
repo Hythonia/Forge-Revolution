@@ -1,0 +1,8 @@
+Name:Scaravi Skald
+ManaCost:2 G
+Types:Creature Human Bard
+PT:2/2
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, return target instant or sorcery card from your graveyard to your hand.
+SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | ValidTgts$ Enchantment.YouCtrl,Card.YouCtrl+withGlory
+Oracle:When Scaravi Skald enters the battlefield, return target enchantment card or card with glory from your graveyard to your hand.
+

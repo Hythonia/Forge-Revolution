@@ -1,0 +1,9 @@
+Name:Stoic Sentinel
+ManaCost:1 G
+Types:Creature Elf Scout
+PT:2/2
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigSurveil | TriggerDescription$ When CARDNAME enters the battlefield, surveil 3.
+SVar:TrigSurveil:DB$ Surveil | Amount$ 3
+A:AB$ Mana | Cost$ T ExileFromGrave<2/Card> | Produced$ Any | SpellDescription$ Add one mana of any color.
+Oracle:When Stoic Sentinel enters the battlefield, surveil 3. (Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\n{T}, Exile two cards from your graveyard: Add one mana of any color.
+

@@ -1,0 +1,11 @@
+Name:Darg Raider
+ManaCost:2 R
+Types:Creature Human Berserker
+PT:3/2
+K:Menace
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigExile | TriggerDescription$ When CARDNAME enters the battlefield, exile the top three cards of your library.
+SVar:TrigExile:DB$ Dig | Defined$ You | DigNum$ 3 | ChangeNum$ All | DestinationZone$ Exile
+S:Mode$ Continuous | Affected$ Card.ExiledWithSource | AffectedZone$ Exile | MayPlay$ True | CheckSVar$ X | Description$ Raid — During each of your turns, if you've attacked this turn, you may play cards exiled with CARDNAME.
+SVar:X:Count$AttackersDeclared
+Oracle:Menace\nWhen Darg Raider enters the battlefield, exile the top three cards of your library.\nRaid — During each of your turns, if you've attacked this turn, you may play cards exiled with Darg Raider.
+

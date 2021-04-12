@@ -1,0 +1,23 @@
+Name:Burning Dawn
+ManaCost:2 R
+Types:Sorcery
+A:SP$ DealDamage | Cost$ 2 R | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 4 | SpellDescription$ CARDNAME deals 4 damage to any target.
+A:AB$ Token | Cost$ 4 R R | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenScript$ c_0_0_totem | ConditionPresent$ Totem.YouCtrl | ConditionCompare$ EQ0 | SubAbility$ DBChangeZone | PrecostDesc$ Invoke | CostDesc$ {4}{R}{R} | SpellDescription$ (Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery)
+SVar:DBChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | Transformed$ True
+AlternateMode:DoubleFaced
+Oracle:Burning Dawn deals 4 damage to any target.\nInvoke {4}{R}{R} (Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery)
+
+ALTERNATE
+
+Name:Sunscale Totem
+ManaCost:no cost
+Colors:red
+Types:Enchantment Aura
+K:Enchant Totem
+A:SP$ Attach | Cost$ 0 | ValidTgts$ Totem
+S:Mode$ Continuous | Affected$ Card.EnchantedBy | AddPower$ 4 | AddToughness$ 4 | AddKeyword$ Flying | Description$ Enchanted Totem gets +4/+4 and has flying.
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigDmg | TriggerDescription$ When CARDNAME enters the battlefield, enchanted Totem deals damage equal to its power to each opponent.
+SVar:TrigDmg:DB$ DealDamage | Defined$ Opponent | NumDmg$ X | DamageSource$ Enchanted
+SVar:X:Enchanted$CardPower
+Oracle:Enchant Totem\nEnchanted Totem get +4/+4 and has flying.\nWhen Sunscale Totem enters the battlefield, enchanted Totem deals damage equal to its power to each opponent.
+

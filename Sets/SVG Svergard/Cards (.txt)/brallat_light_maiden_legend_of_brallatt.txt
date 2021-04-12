@@ -1,0 +1,25 @@
+Name:Brallatt, Light-Maiden
+ManaCost:2 W W
+Types:Legendary Creature God
+PT:4/4
+K:Flying
+K:Glory
+S:Mode$ Continuous | Affected$ Creature.Other+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Other creatures you control get +1/+1.
+T:Mode$ ChangesZone | ValidCard$ Card.Self+attackingLKI | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigReturn | TriggerDescription$ Glory (When this dies while attacking, return her to the battlefield transformed.)
+SVar:TrigReturn:DB$ ChangeZone | Defined$ TriggeredNewCardLKICopy | Origin$ Graveyard | Destination$ Battlefield | Transformed$ True
+AlternateMode:DoubleFaced
+Oracle:Flying\nOther creatures you control get +1/+1.\nGlory (When this dies while attacking, return her to the battlefield transformed.)
+
+ALTERNATE
+
+Name:Legend of Brallatt
+ManaCost:no cost
+Colors:white
+Types:Enchantment Saga
+K:Saga:3:DBToken,DBToken,DBExile
+SVar:DBToken:DB$ Token | TokenScript$ w_1_1_warrior | SpellDescription$ Create a 1/1 white Warrior creature token.
+SVar:DBExile:DB$ ChangeZone | Origin$ Battlefield | Destination$ Exile | RememberChanged$ True | SubAbility$ DBComeBack | SpellDescription$ Exile CARDNAME, then return it to the battlefield. (It enters as a God.)
+SVar:DBComeBack:DB$ ChangeZone | Defined$ Remembered | Origin$ Exile | Destination$ Battlefield | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Create a 1/1 white Warrior creature token.\nIII — Exile Legend of Brallatt, then return it to the battlefield. (It enters as a God.)
+

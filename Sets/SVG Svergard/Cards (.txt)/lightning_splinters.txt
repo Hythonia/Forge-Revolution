@@ -1,0 +1,8 @@
+Name:Lightning Splinters
+ManaCost:2 R
+Types:Sorcery
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 2 | EffectZone$ All | CheckSVar$ X | Description$ Raid — This spell costs {2} less to cast if you attacked this turn.
+A:SP$ DealDamage | Cost$ 2 R | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 3 | SpellDescription$ CARDNAME deals 3 damage to any target.
+SVar:X:Count$AttackersDeclared
+Oracle:Raid — This spell costs {2} less to cast if you attacked this turn.\nLightning Splinters deals 3 damage to any target.
+

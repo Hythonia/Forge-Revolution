@@ -1,0 +1,7 @@
+Name:Valiant Swordsman
+ManaCost:W
+Types:Creature Human Warrior
+PT:2/1
+A:AB$ Pump | Cost$ 1 Sac<1/CARDNAME> | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ Indestructible | SpellDescription$ Target creature gains indestructible until end of turn.
+Oracle:{1}, Sacrifice Valiant Swordsman: Target creature gains indestructible until end of turn.
+

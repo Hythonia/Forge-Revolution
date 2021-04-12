@@ -1,0 +1,269 @@
+[metadata]
+Code=GQC
+Date=2021-04-10
+Name=Revolution: Ghariv: the Quaking City
+Type=Other
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+
+[cards]
+1 R All Is Dust
+2 R Ashen Progenitor
+3 M Azumoth, the Fated Ruin
+4 C Eldrazi Depredator
+5 R Fractured Terror
+6 C Prognostic Enormity
+7 R Protoplasmera
+8 C Scour from Existence
+9 R Specular Grub
+10 U Sublime Envoy
+11 U Timeworn Vapors
+12 U Wailing Stalker
+13 U Angel of Remembrance
+14 C Angelic Smite
+15 R Archangel of Rekindling
+16 M Baptize in His Brilliance
+17 U Battlefront Lancer
+18 R Bestower of Haloes
+19 U Chamber of Penance
+20 R Cybres-Clan Arbiter
+21 U Cybres-Clan Squire
+22 C Dawning Angel
+23 R Empyrean Bastion
+24 C Faith in Darkness
+25 C Forum Patrol
+26 C Frontline Cavalier
+27 C Holtun-Clan Eldhand
+28 C Incense Healer
+29 C Invoke the Divine
+30 C Jorah's Apostle
+31 C Last Confession
+32 R Mother of Hooves
+33 C Outskirts Chapel
+34 R Parish Tithe
+35 U Perimeter Warden
+36 C Pious Nomad
+37 U Preach His Hallowed Gospel
+38 U Prevail
+39 U Prison Architect
+40 U Radiant Seraph
+41 C Resplendent Guardian
+42 C Ride at Dawn
+43 M Rivha, Heiress of Pinions
+44 R Rivha's Blessed Blade
+45 C Seek His Blessed Light
+46 U Soul Healer
+47 U Starlit Exeunt
+48 C Vassal of Violet Smoke
+49 U Vigorous Courser
+50 C Virtuous Mentor
+51 U War Provisions
+52 C War-Clan Boon
+53 C Warded Battlements
+54 U Arcane Strategist
+55 U Behold Bizarre Sublimity
+56 R Bringer of Antithesis
+57 U Cerebral Leech
+58 C Cerebral Twinge
+59 C Cursory Glance
+60 U Dark Blood Zealots
+61 C Diving Skyknight
+62 C Drifting Drone
+63 C Embrace Unending Frost
+64 M Ghirin, Cerulean Sibyl
+65 C Gossamer Tyrant
+66 C Grasp at Frail Dreams
+67 U Grotesque Skimmer
+68 C His High Council
+69 C Hivemind Thrall
+70 C Ichthyic Vermin
+71 C Obsidian Outcast
+72 R Of Men and Monsters
+73 C Opt
+74 R Persuasive Orator
+75 C Pilfered Memories
+76 R Play the Mortal Fool
+77 C Pontiff's Page
+78 U Quelling Goliath
+79 U Rejuvenating Drone
+80 U Rift Spelunking
+81 R Rusted Orrery
+82 C Sanctuary Scourge
+83 U Shed the Human Rind
+84 C Sights of Blind Eyes
+85 U Siphon Memory
+86 R Skyknight Champion
+87 C Squallsnatch
+88 R Supernal Host
+89 C Tireless Scrivener
+90 U Touch of the Beyond
+91 C Utopian Delusions
+92 U Warped Manifestation
+93 U Welkin Outrider
+94 C Admire the Flawed Form
+95 R Bearer of Last Wishes
+96 U Bloodwoken Demon
+97 R Callous Tactician
+98 U Crucify
+99 U Dark Blood Font
+100 R Dark Blood Seer
+101 R Dark Rite Cleric
+102 U Dreadful Deal
+103 C Duel at Thorne Chapel
+104 C Fashion Temples from Flesh
+105 C Feed the Nyrmouth
+106 U Grave Conscription
+107 R Hematic Contract
+108 C Howling Butcher
+109 C Hunting Party
+110 C Lavish Fiend
+111 C Let the Truth In
+112 U Marrow Reaver
+113 C Parapet Creep
+114 C Plead for Asylum
+115 U Portent of the Blighted
+116 U Preordained Vessel
+117 C Profane Exonerator
+118 C Rapacious Demon
+119 C Rise Again
+120 C Sacrosanct Rider
+121 C Sanguine Proselyte
+122 C Shriveled Varlet
+123 U Sinful Pontifex
+124 C Skeletal Prophet
+125 U Stroke of Nescience
+126 U Suffer Vile Retribution
+127 C Surrender to Dread
+128 C Tender to His Dark Blood
+129 M Threzak, the Heinous
+130 R Trade Lives
+131 U Umbral Fiend
+132 R Vermin Skinner
+133 U Worn Survivor
+134 R Battering Savage
+135 C Blood Churner
+136 U Bloodied Champion
+137 U Burgeoning Thrall
+138 R Cataclysmic Witness
+139 C Cathartic Reunion
+140 R Consecrated Wrath
+141 C Crimson Finale
+142 U Eldrazi Fleshripper
+143 U Eldritch Aria
+144 C Embrace Hellfire
+145 C Esoteric Power
+146 C Eyeless Encroacher
+147 C Flexile Maw
+148 C Forlorn Templar
+149 C Forsaken Devotee
+150 U Gaping Pursuer
+151 R Haze Herald
+152 R Into the Breach
+153 M Kr'tah, Corporeal Sculptor
+154 U Lacerate
+155 U Lust for War
+156 C Material Machinations
+157 C Merciless Brute
+158 M Merciless Shieldbreaker
+159 U Mindless Incursion
+160 U Nest Parasite
+161 C Orc Sentry
+162 R Orcish Bloodhunter
+163 U Orcish Twin-Axes
+164 R Primordial Migration
+165 C Pus Gorger
+166 C Rampant Colossus
+167 C Ranging Ruffian
+168 U Realize the Delicate Ideal
+169 C Sacred Thunder
+170 U Scowling Brawler
+171 C Stitch Ephemeral Sinew
+172 C Sure Strike
+173 C Trench Ballista
+174 U Warforged Citadel
+175 C Aberrant Uproar
+176 U Ancient Stirrings
+177 C Become the Behemoth
+178 C Brood Drudge
+179 U Cybres-Clan Warband
+180 U Eerie Ambush
+181 U Emerald Lieutenant
+182 C Exotic Game Hunter
+183 U Flourish in Calamity
+184 C Forum Arbalestier
+185 C Frontier Markswomen
+186 C Gallant Centaur
+187 C Glade Missionary
+188 R Greenglade Advocate
+189 U Greenglade Purifier
+190 R Grind Vacant Husks
+191 R Harbinger of Dusk
+192 U Holtun-Clan Assailant
+193 C Holtun-Clan Neophyte
+194 R Jade Champion
+195 U Lay Waste to Civilization
+196 C Lush Cyclone
+197 U Malignant Wanderer
+198 C Meandering Titan
+199 M Orovus, the Worldcarver
+200 U Permeating Maggot
+201 U Province Demolisher
+202 R Putrescent Carrier
+203 C Realm Ravager
+204 C Rekindle Orphic Memories
+205 R Sinuous Atrocity
+206 R Sound the Blauhorn
+207 C Tangle Glutton
+208 C Thrive in Exotic Chaos
+209 U Twisting Tendrils
+210 C Variegated Channeler
+211 C Verdant Faith
+212 C War-Clan Dowager
+213 C Warhorse's Grit
+214 U Woodland Altar
+215 U Anointer of Fresh Graves
+216 R Beacon of the Lost
+217 U Bloodshed Paramour
+218 M Celestial Shepherd
+219 U Clutch of the Pale Moon
+220 U Cybres-Clan Chieftain
+221 R Dross Incubator
+222 M Dusk Crypt Priestess
+223 U Fortified Palisade
+224 R Harrowing Revivalist
+225 R Hero of a Lost War
+226 U High Holy Chaplain
+227 U Hinterland Refiner
+228 M His Holiness Jorah
+229 R Lucent Peacekeeper
+230 M Michal, the Anointed
+231 R Misfortunes of War
+232 R Nightmare Feaster
+233 M Oko, Trickster of the Trade
+234 R Ophidian Invader
+235 R Prognostic Angel
+236 M Sigrid, the Hollow Queen
+237 U Skyline Maven
+238 U Splinter Luminary
+239 U Vestry Ingester
+240 R Weave into the Fabric
+241 U Anomalous Shrine
+242 R The Chasmal Rift
+243 C Courtyard Obelisk
+244 M Ghariv, the Quaking City
+245 C Transcendent Effigy
+246 R Cobalt Basin
+247 U Consumed Temple
+248 C Evolving Wilds
+249 R The Severed Cradle
+250 S Plains
+251 S Island
+252 S Swamp
+253 S Mountain
+254 S Forest
+255 R Deserted Steppe
+256 R Gnarled Henge
+257 R Mossy Shrine
+258 R Secluded Cascade
+259 R Torrid Geysers
+
+[tokens]

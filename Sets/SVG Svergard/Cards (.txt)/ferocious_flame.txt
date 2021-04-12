@@ -1,0 +1,8 @@
+Name:Ferocious Flame
+ManaCost:R
+Types:Instant
+A:SP$ DealDamage | Cost$ R | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ X | SpellDescription$ CARDNAME deals 2 damage to any target. If you control a creature with power 4 or greater, it deals 4 damage instead.
+SVar:X:Count$Compare Y GE1.4.2
+SVar:Y:Count$Valid Creature.YouCtrl+powerGE4
+Oracle:Ferocious Flame deals 2 damage to any target. If you control a creature with power 4 or greater, it deals 4 damage instead.
+

@@ -1,0 +1,14 @@
+Name:Shimmering Dunekite
+ManaCost:3 R R
+Types:Creature Dragon
+PT:4/3
+K:Flying
+T:Mode$ ChangesZone | ValidCard$ Card.Self+wasCastFromHand | Destination$ Battlefield | Execute$ TrigCopy | OptionalDecider$ You | TriggerDescription$ Whenever CARDNAME or another creature enters the battlefield under your control, if you cast that creature from your hand, you may create a token that's a copy of that creature, except it has haste and "At the beginning of the end step, sacrifice this creature."
+T:Mode$ ChangesZone | ValidCard$ Creature.Other+YouCtrl+wasCastFromHand | Destination$ Battlefield | Execute$ TrigCopy | OptionalDecider$ You | Secondary$ True | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME or another creature enters the battlefield under your control, if you cast that creature from your hand, you may create a token that's a copy of that creature, except it has haste and "At the beginning of the end step, sacrifice this creature."
+SVar:TrigCopy:DB$ CopyPermanent | Defined$ TriggeredCard | RememberTokens$ True | SubAbility$ DBAnimate
+SVar:DBAnimate:DB$ Animate | Defined$ Remembered | Triggers$ EOTSac | KW$ Haste | Permanent$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:EOTSac:Mode$ Phase | Phase$ End of Turn | ValidPlayer$ Player | Execute$ TrigSac | TriggerDescription$ At the beginning of the end step, sacrifice this creature.
+SVar:TrigSac:DB$ Sacrifice | SacValid$ Card.Self
+Oracle:Flying\nWhenever Shimmering Dunekite or another creature enters the battlefield under your control, if you cast that creature from your hand, you may create a token that's a copy of that creature, except it has haste and "At the beginning of the end step, sacrifice this creature."
+

@@ -1,0 +1,8 @@
+Name:Plated Charger
+ManaCost:1 G G
+Types:Creature Beast Mutant
+PT:4/4
+K:Dash:3 G
+S:Mode$ Continuous | Affected$ Card.Self+ThisTurnEntered | AddKeyword$ Hexproof | Description$ CARDNAME has hexproof as long as it entered the battlefield this turn.
+Oracle:Plated Charger has hexproof as long as it entered the battlefield this turn.\nDash {3}{G} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)
+

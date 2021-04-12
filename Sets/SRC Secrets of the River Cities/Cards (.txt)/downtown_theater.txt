@@ -1,0 +1,10 @@
+Name:Downtown Theater
+ManaCost:no cost
+Types:Land
+K:ETBReplacement:Other:DBTap
+SVar:DBTap:DB$ Tap | ETB$ True | Defined$ Self | ConditionCheckSVar$ X | ConditionSVarCompare$ GT2 | SpellDescription$ CARDNAME enters the battlefield tapped unless you control two or fewer other lands.
+SVar:X:Count$LastStateBattlefield Land.Other+YouCtrl
+A:AB$ Mana | Cost$ T | Produced$ W | SpellDescription$ Add {W}.
+A:AB$ Mana | Cost$ T | Produced$ B | SpellDescription$ Add {B}.
+Oracle:Downtown Theater enters the battlefield tapped unless you control two or more basic lands.\n{T}: Add {W} or {B}.
+

@@ -1,0 +1,10 @@
+Name:Maldunn's Devotee
+ManaCost:R
+Types:Creature Human Shaman
+PT:1/2
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create a Glyph token. (It's an artifact with "{1}, Sacrifice this: Scry 1.")
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_glyph_sac
+T:Mode$ Scry | ValidPlayer$ You | Execute$ TrigDmg | TriggerZones$ Battlefield | TriggerDescription$ Whenever you scry, CARDNAME deals 1 damage to each opponent.
+SVar:TrigDmg:DB$ DealDamage | Defined$ Opponent | NumDmg$ 1
+Oracle:When Maldunn's Devotee enters the battlefield, create a Glyph token. (It's an artifact with "{1}, Sacrifice this: Scry 1.")\nWhenever you scry, Maldunn's Devotee deals 1 damage to each opponent.
+

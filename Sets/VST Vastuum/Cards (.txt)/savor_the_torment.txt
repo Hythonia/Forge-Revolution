@@ -1,0 +1,10 @@
+Name:Savor the Torment
+ManaCost:1 B
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigPutCounter | TriggerDescription$ When CARDNAME enters the battlefield, put two -1/-1 counters on target creature. 
+SVar:TrigPutCounter:DB$ PutCounter | ValidTgts$ Creature | TgtPrompt$ Select target creature | CounterType$ M1M1 | CounterNum$ 1
+T:Mode$ ChangesZone | ValidCard$ Creature | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigGainLife | TriggerDescription$ Whenever a creature dies, you gain 1 life for each -1/-1 counter on it.
+SVar:TrigGainLife:DB$ GainLife | LifeAmount$ X
+SVar:X:TriggeredCard$CardCounters
+Oracle:When Savor the Torment enters the battlefield, put two -1/-1 counters on target creature.\nWhenever a creature dies, you gain 1 life for each -1/-1 counter on it.
+

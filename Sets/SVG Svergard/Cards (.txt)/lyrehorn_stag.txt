@@ -1,0 +1,13 @@
+Name:Lyrehorn Stag
+ManaCost:1 G G
+Types:Creature Elk
+PT:2/4
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, you may search your library for an enchantment card, reveal it, then shuffle and put that card on top of it.
+SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Library | Destination$ Library | LibraryPosition$ 0 | ChangeType$ Enchantment | ChangeNum$ 1
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigPutCounter | TriggerDescription$ Whenever CARDNAME attacks, you may put a lore counter on any number of Sagas you control.
+SVar:TrigPutCounter:DB$ PutCounter | CounterType$ LORE | CounterNum$ 1 | ValidTgts$ Saga.YouCtrl | TgtPrompt$ Select any number of target Sagas you control | TargetMin$ 0 | TargetMax$ X
+SVar:X:Count$Valid Saga.YouCtrl
+DeckNeeds:Type$Enchantment
+DeckHints:Type$Saga
+Oracle:When Lyrehorn Stag enters the battlefield, you may search your library for an enchantment card, reveal it, then shuffle and put that card on top of it.\nWhenever Lyrehorn Stag attacks, you may put a lore counter on any number of Sagas you control.
+

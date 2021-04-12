@@ -1,0 +1,309 @@
+[metadata]
+Code=KUT
+Date=2021-04-10
+Name=Revolution: Kuutalya
+Type=Other
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+
+[cards]
+1 C Arctic Tenacity
+2 U Auroric Banisher
+3 C Avalanche's Advance
+4 R Combat-Form Instructor
+5 U Courtyard Sanctifier
+6 C Evening Meditation
+7 U Fortunous Windhorse
+8 C Glacier Sentinel
+9 R Helping Hands
+10 U Hunker Down
+11 C Huntmaster's Amarok
+12 M Isolated Meditation
+13 C Mantra of Sunrise
+14 R Mentor of Inner Peace
+15 C Monastery Ibex
+16 U Narwa Warmaker
+17 C Pathar's Lightchaser
+18 U Peerless Monk
+19 C Pikgryff Pridemother
+20 C Pouncing Snowlion
+21 C Pressure Point
+22 U Priest of the Caldera
+23 C Rakshasa Initiate
+24 R Rescuer of the Lost
+25 U Seqineq's Radiance
+26 C Shed the Material
+27 R Shelter in Paradise
+28 C Splendid Victory
+29 R Stand Guard
+30 C Student of Inner Peace
+31 C Sunrise Mentor
+32 U Suntouched Ascension
+33 C Tusk Bay Seal
+34 R Veiltouched Soulbinder
+35 C Vow of Silence
+36 C Aglu's Ghostwarden
+37 U Arctic Drake
+38 R Atrah's Utterance
+39 C Baleful Gaze
+40 C Behemoth of Tusk Bay
+41 U Bounce Off
+42 C Chilling Wind
+43 C Cryostasis
+44 U Cunning Pal Rai Yuk
+45 C Frost Breath
+46 R Gaze Beyond
+47 U Grasping Tentacles
+48 C Harsh Conditions
+49 R Ice-Drake Nest
+50 C Keen-Eyed Dive
+51 C Keeper of Kugaq
+52 C Lhosei's Determination
+53 C Mantra of the Depths
+54 R Monastery Flagdancers
+55 C Pass Pilgrim
+56 C Qalupalik Snatcher
+57 C Seekers of Khembul
+58 U Seeking for Allies
+59 C Sentinel's Denial
+60 C Silverfrost Monal
+61 C Sojourner Pilgrim
+62 R Soul Slaver
+63 R Splashback
+64 C Subjugated Spirit
+65 U Submerged Icehorn
+66 U Tambara Totem-Binder
+67 M Tigal, Guru of Dhagiri
+68 R Treading Thin Ice
+69 U Watcher's Roost
+70 U Winding Trails
+71 C Alonzo's Whispers
+72 U Anigul's Fall
+73 C Beguiling Kichkandi
+74 C Blightling
+75 R Bloodstitched Tupilaq
+76 C Carrion Viper
+77 C Descend into Darkness
+78 U Drumbone Ahkiyyini
+79 U Elder of Offerings
+80 M Eternal Night
+81 U Feasting Atshen
+82 C Frozen Bones
+83 C Harrowing Visit
+84 U Herald of Anigul
+85 C Jirrisa's Ghostwarden
+86 C Mantra of the Night
+87 R Niyma, the Survivor
+88 C Niyma's Style
+89 C Purge from Memory
+90 R Scourge of Spirits
+91 U Seal in Blood
+92 C Souldrain
+93 U Spectral Throatsinger
+94 R Spreader of Veilblight
+95 U Sunless Miasma
+96 C Sunless Scrounger
+97 C Tartok Wanderer
+98 R Thin the Veil
+99 C Tugit Icefisher
+100 C Unending Hunger
+101 R Unnatural Rebirth
+102 C Veilsight Watcher
+103 R Waystone Reaper
+104 U Whalebone Huntsman
+105 C Wretched Monstrosity
+106 C Ashenflame
+107 U Blaze of Seqineq
+108 R Bloodmaw
+109 M Burning Dawn
+110 C Butani Pass Ravager
+111 C Caldera Elemental
+112 U Champion of the Many
+113 C Cliff-Pouncer Leopard
+114 C Dhagiri Style
+115 C Druk-Style Practitioner
+116 C Flaring Despair
+117 C Guru of Tumbling Stone
+118 C Hornrush
+119 U Hundred-Chant Elder
+120 R Loving Reunion
+121 R Maddening Roar
+122 C Mantra of Fire
+123 C Mayuk Claw-Sage
+124 R Narwa Igniter
+125 R One with the Storm
+126 C Overseer of Forms
+127 C Paro Katsang Avenger
+128 U Pursued Snowrunner
+129 U Scion of Seqineq
+130 C Shattering Kick
+131 C Snowsifter Yeti
+132 C Solar Meditation
+133 M Solara, Sun Speaker
+134 U Solara's Machinations
+135 U Solara's Pyromancer
+136 U Spirit of the First Dawn
+137 R Sunflare Disciple
+138 R Tambara Kinbonder
+139 U Tusker's Rage
+140 C Volcanic Claim
+141 C Wrap in Flames
+142 U Alruq Migration
+143 R Auroric Resurgence
+144 C Bellowing Takin
+145 R Boundary Guardian
+146 C Butani Shaman
+147 R Butani Warleader
+148 U Caller of the Great Bears
+149 R Crossed Abomination
+150 C Elder's Might
+151 C Follow the Herd
+152 C Frostbite Spider
+153 C Haunt of Paro Katsang
+154 C Lakhey Guardian
+155 U Loxodon Memorialist
+156 C Mantra of the Veil
+157 C Mayuk Denwarden
+158 C Nanuk Elder
+159 C Pathar's Ghostwarden
+160 C Patriarch's Challenge
+161 U Peaceful Journey
+162 R Primal Genesis
+163 R Samaka's Boonweaver
+164 C Snow-Pass Guardian
+165 C Snowcrash
+166 C Spiritual Bonds
+167 U Stoic Sentinel
+168 C Takedown Strike
+169 C Tambara Tracker
+170 U Tambara's Growth
+171 R Tender of the Heartglade
+172 M Ujuraq, Elder Watcher
+173 U Ujuraq's Tusk
+174 U Veilsight Elder
+175 C Warden of Tartok Valley
+176 U Waystone Herder
+177 R Aglu, Tugit Chieftain
+178 M Alonzo, Departed Detective
+179 M Anigul, the Setting Sun
+180 R Atrah of the First Word
+181 U Auroric Guidance
+182 R Auroric Span
+183 R Beyond the Veil
+184 U Blizzard Maiden
+185 R Brink of the End
+186 U Caldera's Gift
+187 U Coldhearted Cryomancer
+188 U Commune with the Veil
+189 R Dawnbreak Stampede
+190 U Devouring Amautalik
+191 R Disciple of Seqineq
+192 R Emberwind Visionary
+193 U Eternal Ghostwarden
+194 R Ghostwarden's Claim
+195 U Glacial Entrenchment
+196 R Glorious Confrontation
+197 U Heartsong Invoker
+198 U Hero of the Alruq
+199 U Ice-Hole Sentry
+200 U Invoker's Expertise
+201 R Jirrisa, Neqanak Chieftain
+202 U Jirrisa's Charm
+203 U Khembul Protector
+204 M Kugaq, the Waking Glacier
+205 R Kugaq's Brood
+206 U Kugaq's Charm
+207 M Lhosei the Determined
+208 R Migu, Terror of the Pass
+209 U Migu's Ravager
+210 U Narwa Wardrover
+211 R Onslaught of Winter
+212 M Pathar, Alruq Chieftain
+213 U Pathar's Charm
+214 R Patriarch of Spring
+215 M Prophet of the Veil
+216 U Runecarved Remnant
+217 R Samaka, Ancient Totemist
+218 U Samaka's Charm
+219 U Scavenging Keelut
+220 M Seqineq, the Rising Sun
+221 R Serene Mediator
+222 R Sonam the Hunted
+223 U Totem-Forest Huntress
+224 M Totemic Kigatilik
+225 U Warden of Stolen Souls
+226 U Warden's Akhlut
+227 R Whipchain Warlord
+228 R Wilderkin Behemoth
+229 R Witness the Ages
+230 M Yiskola, Narwa Chieftain
+231 U Yiskola's Charm
+232 U Atrah's Chantkeeper
+233 U Auroric Waygate
+234 U Awakened Guardian
+235 C Bonewhisper Idol
+236 U Bottled Sunlight
+237 R Curator of Myth
+238 R Dawnchime, Lhosei's Staff
+239 C Ghostwarden's Lantern
+240 U Guide's Trappings
+241 C Monument to the Thirty
+242 C Prismatic Permafrost
+243 R Qamutiik Snowrunner
+244 R Trailblazer's Records
+245 C Witness to the First Word
+246 C Alruq Veil-Boundary
+247 C Bloodfell Caves
+248 C Blossoming Sands
+249 R Clearwater Grotto
+250 C Dhagiri Veil-Boundary
+251 C Dismal Backwater
+252 C Evolving Wilds
+253 U Frigid Landscape
+254 C Jungle Hollow
+255 R Khembul, Paradise Valley
+256 R Misty Peak
+257 C Narwa Veil-Boundary
+258 C Neqanak Veil-Boundary
+259 U Pilgrim's Trails
+260 U Pinnacle Warground
+261 R Profane Grove
+262 C Rugged Highlands
+263 C Scoured Barrens
+264 U Sentinel's Glade
+265 R Stark Expanse
+266 C Swiftwater Cliffs
+267 C Tambara Veil-Boundary
+268 C Thornwood Falls
+269 U Totemic Thicket
+270 C Tranquil Cove
+271 C Wind-Scarred Crag
+272 R Windbeaten Stones
+273 S Plains
+274 S Island
+275 S Swamp
+276 S Mountain
+277 S Forest
+278 S Fortunous Windhorse
+279 S Isolated Meditation
+280 S Rescuer of the Lost
+281 S Combat-Form Instructor
+282 S Tigal, Guru of the Dhagiri
+283 S Monastery Flagdancers
+284 S Narwa Igniter
+285 S Solara's Pyromancer
+286 S Solara, Sun Speaker
+287 S Caldera Elemental
+288 S Guru of Tumbling Stone
+289 S Wrap in Flames
+290 S Sunflare Disciple
+291 S Ujuraq, Elder Watcher
+292 S Boundary Guardian
+293 S Atrah of the First Word
+294 S Serene Mediator
+295 S Sonam the Hunted
+296 S Seqineq, the Rising Sun
+297 S Wilderkin Behemoth
+298 S Emberwind Visionary
+299 S Anigul, the Setting Sun
+
+[tokens]

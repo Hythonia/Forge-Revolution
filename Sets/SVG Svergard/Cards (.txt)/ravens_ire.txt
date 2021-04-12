@@ -1,0 +1,6 @@
+Name:Raven's Ire
+ManaCost:B
+Types:Sorcery
+A:SP$ Discard | Cost$ B | ValidTgts$ Player | NumCards$ 1 | DiscardValid$ Creature,Sorcery | Mode$ RevealYouChoose | SpellDescription$ Target player reveals their hand. You choose a creature or sorcery card from it. That player discards that card. 
+Oracle:Target player reveals their hand. You choose a creature or sorcery card from it. That player discards that card. 
+

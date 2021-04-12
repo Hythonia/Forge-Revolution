@@ -1,0 +1,24 @@
+Name:Primal Genesis
+ManaCost:1 G
+Types:Sorcery
+A:SP$ Token | Cost$ 1 G | TokenScript$ g_2_2_ox | SubAbility$ DBGainLife | SpellDescription$ Create a 2/2 green Ox creature token. You gain 2 life.
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 2
+A:AB$ Token | Cost$ 4 G G | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenScript$ c_0_0_totem | ConditionPresent$ Totem.YouCtrl | ConditionCompare$ EQ0 | SubAbility$ DBChangeZone | PrecostDesc$ Invoke | CostDesc$ {4}{G}{G} | SpellDescription$ (Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery)
+SVar:DBChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | Transformed$ True
+AlternateMode:DoubleFaced
+Oracle:Create a 2/2 green Ox creature token. You gain 2 life.\nInvoke {4}{G}{G} (Put this from your graveyard onto the battlefield transformed. If you don't control a Totem, first create a 0/0 colorless Totem creature token. Invoke only as a sorcery)
+
+ALTERNATE
+
+Name:Genesis Totem
+ManaCost:no cost
+Colors:green
+Types:Enchantment Aura
+K:Enchant Totem
+A:SP$ Attach | Cost$ 0 | ValidTgts$ Totem
+S:Mode$ Continuous | Affected$ Card.EnchantedBy | AddPower$ 4 | AddToughness$ 4 | Description$ Enchanted Totem gets +4/+4.
+T:Mode$ Attacks | ValidCard$ Creature.EnchantedBy | Execute$ TrigToken | TriggerDescription$ Whenever enchanted Totem attacks, create a 2/2 green Ox creature token and you gain 2 life.
+SVar:TrigToken:DB$ Token | TokenScript$ g_2_2_ox | SubAbility$ DBGainLife
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 2
+Oracle:Enchant Totem\nEnchanted Totem gets +4/+4.\nWhenever enchanted Totem attacks, create a 2/2 green Ox creature token and you gain 2 life.
+

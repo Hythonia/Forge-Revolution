@@ -1,0 +1,7 @@
+Name:Cobalt Basin
+ManaCost:no cost
+Types:Land Creature Eldrazi
+PT:1/1
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+Oracle:{T}: Add {C}.
+

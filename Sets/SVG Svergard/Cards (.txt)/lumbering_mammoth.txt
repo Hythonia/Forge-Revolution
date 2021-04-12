@@ -1,0 +1,10 @@
+Name:Lumbering Mammoth
+ManaCost:2 B
+Types:Creature Zombie Elephant
+PT:5/3
+K:Menace
+T:Mode$ Phase | Phase$ End of Turn | ValidPlayer$ You | Execute$ TrigLoseLife | CheckSVar$ X | SVarCompare$ EQ0 | TriggerZones$ Battlefield | TriggerDescription$ Raid — At the beginning of your end step, you lose 3 life unless you attacked this turn.
+SVar:TrigLoseLife:DB$ LoseLife | LifeAmount$ 3
+SVar:X:Count$AttackersDeclared
+Oracle:Menace\nRaid — At the beginning of your end step, you lose 3 life unless you attacked this turn.
+

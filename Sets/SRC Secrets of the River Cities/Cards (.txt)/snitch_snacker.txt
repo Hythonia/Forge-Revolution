@@ -1,0 +1,13 @@
+Name:Snitch Snacker
+ManaCost:X G
+Types:Creature Beast
+PT:0/0
+K:Reach
+K:Trample
+K:etbCounter:P1P1:X
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigGainLife | TriggerDescription$ When CARDNAME enters the battlefield, you gain X life.
+SVar:TrigGainLife:DB$ GainLife | LifeAmount$ X
+SVar:X:Count$xPaid
+DeckHas:Ability$Counters & Ability$LifeGain
+Oracle:Reach, trample\nSnitch Snacker enters the battlefield with X +1/+1 counters on it.\nWhen Snitch Snacker enters the battlefield, you gain X life.
+

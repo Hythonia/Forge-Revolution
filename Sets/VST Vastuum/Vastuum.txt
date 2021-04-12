@@ -1,0 +1,266 @@
+[metadata]
+Code=VST
+Date=2021-04-10
+Name=Revolution: Vastuum
+Type=Other
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+
+[cards]
+1 M Karn, Heart of Guilt
+2 M Angel of Dismay
+3 C Caravan Skyrider
+4 U Chosen of the Faultless
+5 R Convoy Forerunner
+6 C Convoy Laggu-Rider
+7 R Destari Skylord
+8 C Disciple of the Faultless
+9 C Endtimes Hatchling
+10 U Enrobe in Light
+11 C Flawed Undertaking
+12 U Forlorn Firstspear
+13 C Griffin Taming
+14 C Isolation Zone
+15 R Last of Us
+16 U Left to Time
+17 C Luma's Kindred
+18 U Naomi's Vanguard
+19 U Nivia's Regret
+20 C Nomad Enforcer
+21 C Nomad's Companion
+22 C Oasis Seeker
+23 C Overcome the Dunes
+24 U Path of Resilience
+25 U Repel the Impure
+26 C Resigned Seraph
+27 R Runic Sealer
+28 C Sanctis Banneret
+29 U Sanctis Griffin
+30 C Sanctum's Light
+31 R Saviour of the Lost
+32 U Seek Out Survivors
+33 C Seize the Initiative
+34 U Skywatch Brigade
+35 C Survey Whats Left
+36 R Travel Together
+37 R United in Survival
+38 U Vaya's Subjugator
+39 C Wander the Ruins
+40 U Antiquity Seeker
+41 C Blind Wyvern
+42 C Brackcliff Drakes
+43 C Crafted Exogene
+44 U Dust Enigma
+45 C Endtimes Monstrosity
+46 C Essence Scatter
+47 R Eternal Wanderer
+48 R Evaldi's Harmonizer
+49 C Exogene Spitter
+50 U Geneshifter Adept
+51 R Geneshifting
+52 C Getting Lost
+53 C Know the Way
+54 C Leave to the Sands
+55 C Leyline Feedback
+56 C Leyline Router
+57 C Lore Investigator
+58 R Mirage Oddity
+59 C Mysterious Undertaking
+60 U Nimbus Drifters
+61 U Part Ways
+62 U Path of Caution
+63 R Quintessence Manta
+64 C Relic Wayfarer
+65 R Render Inert
+66 C Sand Manipulator
+67 R Sandwarp
+68 C Seawing Shrieker
+69 C Secrets of the Sands
+70 M Sephius, Endtime Scholar
+71 U Sephius's Research
+72 U Sidetracked
+73 U Sink into Doubt
+74 C Tradeway Scholar
+75 U Umbral Glider
+76 U Uneasy Encounter
+77 M Unprecedented Genius
+78 U Wall of Mysteries
+79 U Carrion Divers
+80 M Consign to Failure
+81 U Council of Vaya
+82 U Destari Blightwing
+83 C Doomed Undertaking
+84 C Ego Collapse
+85 C Embraced by Dusk
+86 C Endtimes Steward
+87 R Erode to Nothing
+88 C Fall Lurker
+89 R The Fall of Aethanis
+90 U Falltouched Emergence
+91 C Falltouched Predator
+92 C Faultless Bloodhunter
+93 M Foug, Indulgent Broker
+94 U Foug's Quandary
+95 C Gnoll Deathraider
+96 C Grasp of the Fallen
+97 C Grim Determination
+98 C Harvester of Vigor
+99 U Hopeless Predicament
+100 R Lethal Dose
+101 R Leyline Reaper
+102 C Life Desecrator
+103 C Malformed Rebirth
+104 R Pursued Eremite
+105 U Radaran Butcher
+106 C Radaran Monstrosity
+107 U Radaran Stirrings
+108 R Radaran Undying
+109 R Rayak, Radaran Overlord
+110 U Rayak's Prelate
+111 U Resilient Raiders
+112 U Savor the Torment
+113 C Shi-Fang Bandits
+114 U Supply Raid
+115 C Twilight Screechers
+116 C Warped Worshipper
+117 C Wither Away
+118 U Ashen Dunekite
+119 U Bloodrage Brawler
+120 R Claim What Remains
+121 R Dustborn Phoenix
+122 C Endtimes Hunter
+123 U Fierce Infighting
+124 U Gnoll Raidleaders
+125 C Gnoll Ravager
+126 C Goresand Marauder
+127 C Goresand Wardriver
+128 R Grin, Scourge of Goresand
+129 R Grin's Reaver
+130 U Hateseer Elder
+131 C Hostile Undertaking
+132 C Huntscent Pillagers
+133 U Incandescent Rain
+134 R Insistent Lightning
+135 R Instincts of the Pack
+136 U Luma's Acolyte
+137 C Marauder's Fire
+138 C The Pack Feasts
+139 U Path of Brutality
+140 C Plunder and Maim
+141 U Rabid Whelps
+142 C Radaran Pioneer
+143 U Raid Preparations
+144 C Raider's Loyalty
+145 C Ransack and Burn
+146 C Regard the Remnants
+147 C Rubble Messenger
+148 U Sandscald
+149 U Scrapfire Technician
+150 C Shi-Fang Ambusher
+151 M Shimmering Dunekite
+152 C Strip Away
+153 R Sun-Mad Dunekite
+154 C Territorial Sandshark
+155 R Warpath Minotaur
+156 C Way of the Raider
+157 R Bitter Redemption
+158 R Consumption Tyrant
+159 C Debris Surveyors
+160 C Desperate Animist
+161 C Endtimes Pilgrim
+162 R Evaldi, Genesis of Hope
+163 M Evaldi's Masterpiece
+164 R Evaldi's Muse
+165 U Evaldi's Search
+166 C Exiled Channeler
+167 U Exogene Prowler
+168 C Falltouched Hunger
+169 U Fluorescent Sprinter
+170 C Gene Gorger
+171 U Geneshifted Goliath
+172 U Geneshifted Warbler
+173 U Grievous Confrontation
+174 C Horizon Eater
+175 C Hunter's Tenacity
+176 C Laggu Outrider
+177 U Landscape Decay
+178 R Leyline Feeder
+179 U Lost in the Past
+180 C Market Festival
+181 U Plated Charger
+182 C Radaran Hunter
+183 U Radaran Reclaimer
+184 C Reduce to Earth
+185 U Sandstalker Duo
+186 C Sandtrap Spider
+187 C Savage Undertaking
+188 U Skytouch Wurm
+189 R Stampeding Orvs
+190 R Struggle for Survival
+191 C Twisted Endurance
+192 C Valley Carver
+193 C Wayfarer's Destination
+194 M Wurm's Wake
+195 C Zerul Mangler
+196 R Biramous Entity
+197 U Deathraider Elite
+198 U Dusk Dancer
+199 R Find of a Lifetime
+200 U Growthblazers
+201 U Irradiated Amalgam
+202 M Luma, Guiding Star
+203 U Manta Wrangler
+204 M Naomi, Pathleader
+205 M Nivia, Last of the Aethanis
+206 U Nivia's Safekeeper
+207 U Preacher of the Faultless
+208 R Radaran Corruption
+209 U Raid Veteran
+210 R Realm Siphoner
+211 R Revel in Perfection
+212 R Ruinstorm Wurm
+213 U Settlement Convoy
+214 U Unbridled Antoch
+215 M Vaya, Arbiter of Perfection
+216 M Vlad-Shi, Packmother
+217 U Abandoned Astrolabe
+218 R Aethanis Conservator
+219 U Aethanis Leylinker
+220 C Aethanis Sentinel
+221 C Aethanis Strider
+222 R Aether Conductor
+223 R Enigmatic Constructor
+224 R Eon Overwatch
+225 R Eradicator Engine
+226 C Flareshot Bow
+227 R Liminal Observer
+228 C Pathfinder's Tools
+229 M The Source
+230 U Source Conduits
+231 U Source Sentries
+232 U Specimen Observer
+233 C Survival Gear
+234 C Timeless Custodian
+235 C Unstable Relic
+236 U Abandoned Excavation
+237 R Aethanis, the Fallen Capital
+238 R Ancient Shelter
+239 U Buried Ruin
+240 U Field of Ruin
+241 R Goresand Remnant
+242 C Holdout Settlement
+243 U Malign Outskirts
+244 C Neglected Nexus
+245 R Radaran Remnant
+246 R Ruinstorm Remnant
+247 R Sanctis Remnant
+248 R Starved Oasis
+249 R Tradeway Remnant
+250 C Twilight Depths
+251 C Wastes
+252 S Plains
+253 S Island
+254 S Swamp
+255 S Mountain
+256 S Forest
+
+[tokens]

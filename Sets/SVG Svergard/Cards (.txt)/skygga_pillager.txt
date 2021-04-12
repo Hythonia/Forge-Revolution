@@ -1,0 +1,10 @@
+Name:Skygga Pillager
+ManaCost:1 B
+Types:Creature Human Berserker
+PT:2/1
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | CheckSVar$ X | Execute$ TrigDraw | TriggerDescription$ Raid — When CARDNAME enters the battlefield, if you attacked this turn, you draw a card and you lose 1 life.
+SVar:TrigDraw:DB$ Draw | SubAbility$ DBLoseLife
+SVar:DBLoseLife:DB$ LoseLife | LifeAmount$ 1
+SVar:X:Count$AttackersDeclared
+Oracle:Raid — When Skygga Pillager enters the battlefield, if you attacked this turn, you draw a card and you lose 1 life.
+

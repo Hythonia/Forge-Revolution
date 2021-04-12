@@ -1,0 +1,9 @@
+Name:Evaldi, Genesis of Hope
+ManaCost:2 G
+Types:Legendary Creature Elf Druid
+PT:3/4
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigBounce | TriggerDescription$ At the beginning of your upkeep, return a permanent you control to its owner's hand.
+SVar:TrigBounce:DB$ ChangeZone | ChangeType$ Permanent.YouCtrl | ChangeNum$ 1 | Origin$ Battlefield | Destination$ Hand | Mandatory$ True | Hidden$ True
+S:Mode$ Continuous | Affected$ You | AdjustLandPlays$ 1 | Description$ You may play an additional land on each of your turns.
+Oracle:At the beginning of your upkeep, return a permanent you control to its owner's hand.\nYou may play an additional land on each of your turns.
+

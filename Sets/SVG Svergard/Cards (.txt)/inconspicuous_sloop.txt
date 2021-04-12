@@ -1,0 +1,9 @@
+Name:Inscopicuous Sloop
+ManaCost:U
+Types:Artifact Vehicle
+PT:2/2
+K:Crew:1
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | Execute$ TrigDraw | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME deals damage to a player, draw a card.
+SVar:TrigDraw:DB$ Draw | NumCards$ 1
+Oracle:Whenever Inconspicuous Sloop deals damage to a player, draw a card.\nCrew 1 (Tap any number of creatures you control with power 1 or greater: This Vehicle becomes an artifact creature until end of turn.)
+

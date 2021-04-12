@@ -1,0 +1,12 @@
+Name:Glyph-Gift Berserker
+ManaCost:1 R
+Types:Creature Human Berserker
+PT:2/1
+K:Menace
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create a Glyph token. (It's an artifact with "{1}, Sacrifice this: Scry 1.")
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_glyph_sac
+T:Mode$ Scry | ValidPlayer$ You | Execute$ TrigPump | TriggerZones$ Battlefield | TriggerDescription$ Whenever you scry, CARDNAME gets +1/+1 until end of turn.
+SVar:TrigPump:DB$ Pump | NumAtt$ 1 | NumDef$ 1 
+DeckHas:Ability$Token
+Oracle:Menace\nWhen Glyph-Gift Berserker enters the battlefield, create a Glyph token. (It's an artifact with "{1}, Sacrifice this: Scry 1.")\nWhenever you scry, Glyph-Gift Berserker gets +1/+1 until end of turn.
+

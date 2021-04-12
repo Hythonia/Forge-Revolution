@@ -1,0 +1,5 @@
+Name:Glyph
+ManaCost:no cost
+Types:Artifact Glyph
+A:AB$ Scry | Cost$ 1 Sac<1/CARDNAME> | ScryNum$ 1 | SpellDescription$ Scry 1.
+Oracle:{1}, Sacrifice this: Scry 1.

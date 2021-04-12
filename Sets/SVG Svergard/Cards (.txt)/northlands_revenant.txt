@@ -1,0 +1,9 @@
+Name:Northlands Revenant
+ManaCost:B
+Types:Creature Zombie Warrior
+PT:2/1
+K:CARDNAME can't block.
+SVar:AltCost:Cost$ B Discard<1/Card> | ActivationZone$ Graveyard | CheckSVar$ X | SVarCompare$ GE1 | Description$ Raid — As long as you've attacked this turn, you may cast CARDNAME from your graveyard by discarding a card as an additional cost to cast it.
+SVar:X:Count$AttackersDeclared
+Oracle:Northlands Revenant can't block.\nRaid — As long as you've attacked this turn, you may cast Northlands Revenant from your graveyard by discarding a card as an additional cost to cast it.
+
