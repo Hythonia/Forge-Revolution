@@ -1,0 +1,32 @@
+HOW TO USE
+
+1) Download the repository as a ZIP file and extract it somewhere.
+2) Open Forge's "res" folder. It should be in the folder your EXE file is in.
+3) Open the extracted repository.
+4) Open the folder of the set you want to import.
+5) Create a folder of that set in the "res/cardsfolder" folder, for example "SVG".
+6) Move all cards from the repository's "Cards (.txt)" folder to the folder you just made.
+7) Move all cards from the repository's "Tokens (.txt)" folder to "res/tokenscripts".
+8) Do the above for all the sets you want to import. (Starting with 4. You don't need to redownload the whole thing.)
+
+QUESTIONS THAT WILL LIKELY BE ASKED
+
+Q: A card made Forge crash! What should I do?
+A: Made sure you put the token scripts in the right place. If the card doesn't use tokens, however...
+
+Q: ...Then?
+A: You can create an issue on the repository's Git page. I will try to fix that as soon as possible.
+
+Q: A card doesn't work properly, what should I do?
+A: Same as above, create an issue for it and I'll take a look when I can.
+
+Q: The cards work, but the images aren't here. Where can I get them?
+A: To reduce the size of the file you need to download, images were removed from the repository. You can use Cajun's forgeLoad in the link below to download them — follow the instructions there. If you're using mobile, you probably aren't going to ask this question.
+
+Q: I downloaded the cards, but for some of them the pictures aren't loading. Why?
+A: Some cardnames coincide with the canon ones and therefore had to have an asterisk appended at the end. Check if it's one of the cards — Dark Bargain will probably be the one you're looking for :P — and change its filename from "CARDNAME.full.jpg" to "CARDNAME*.full.jpg".
+
+LINKS
+
+Cajun's forgeLoad: https://github.com/CajunAvenger/forgeLoad
+FLAREdirector's MSEM2 database: https://github.com/FLAREdirector-mse/MSE-Forge-Database
